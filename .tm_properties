@@ -1,0 +1,3 @@
+[*.js]
+showInvisibles = true
+showWrapColumn = true
