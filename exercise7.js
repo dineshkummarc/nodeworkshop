@@ -2,7 +2,7 @@ var express = require('express')
 var app = express.createServer()
 app.use(express.cookieParser())
 
-//app.set('view engine', 'jade')
+app.set('view engine', 'jade')
 
 app.get('/', function(req, res){
 	res.render('index')
